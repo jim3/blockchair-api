@@ -1,0 +1,30 @@
+:root {
+  background-color: #1e252c;
+  color: 	#B7C5D3;
+}
+
+table {
+  height: 500px;
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  background-color: #1d2021;
+  color: #c9c396
+}
+
+th {
+  background-color: #0a202c;
+}
+
+td {
+  color: #c9c396
+}
+
+td,
+th {
+  width: 50%;
+  text-align: center;
+  border: 1px solid #272238;
+  border: #abbad7 1px solid;
+}

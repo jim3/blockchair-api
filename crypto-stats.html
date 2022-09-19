@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="blockchair.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Blockchair API</h2>
+  <table>
+    <caption>
+      <h3>Real-time Stats for Bitcoin<h3>
+    </caption>
+    <tr>
+      <th>Current Market Price</th>
+      <td>
+        <p id="market_price_usd"></p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Market Price Change</th>
+      <td id="market_price_usd_change_24h_percentage"></td>
+    </tr>
+
+    <tr>
+      <th>Average Transaction Fee (USD)</th>
+      <td id="average_transaction_fee_usd_24h"></td>
+    </tr>
+
+    <tr>
+      <th>Market Dominance</th>
+      <td>
+        <p id="market_dominance_percentage"></p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Circulation</th>
+      <td>
+        <p id="circulation"></p>
+      </td>
+    </tr>
+  </table>
+  <script src="blockchair.js"></script>
+</body>
+
+</html>
