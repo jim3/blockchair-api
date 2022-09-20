@@ -6,6 +6,7 @@ window.addEventListener("load", (event) => {
 });
 
 function getMarketPrice() {
+  try{
   fetch(API)
     .then((response) => {
       return response.json();
@@ -28,6 +29,8 @@ function getMarketPrice() {
 
       setTimeout(getMarketPrice, 60000);
     });
+  }
+    catch (error) {console.error(`Could not fetch data: ${error}`);}
 }
 
 function currencyFormatter(number) {
