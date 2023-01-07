@@ -1,1 +1,1 @@
-### Uses the Blockchair API to fetch stats (every  minute) on cryptocurrencies.
+Client-side JavaScript that fetches stats on cryptocurrencies via Blockchair API
